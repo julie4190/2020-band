@@ -2,7 +2,8 @@
 .header {background-color : black;}
 .nav-wrap {color: white; float: left;}
 
-.nav-wrap>div{float: left; padding: 12px 16px;}
+
+.nav-wrap>div{float: left; padding: 14px 18px;}
 .nav-wrap >div:hover{background-color:gray ;cursor: pointer;}
 .sch-wrap {background-color :orange; float: right;}
 
