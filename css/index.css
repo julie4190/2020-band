@@ -1,9 +1,83 @@
-.clearfix {clear: both;}
-.header {background-color : black;}
-.nav-wrap {color: white; float: left;}
+/*normalize*/
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+ul,
+li,
+dl,
+dd,
+dt {
+	box-sizing: border-box;
+}
+
+body {
+	height: 10000px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.header {
+	background-color: black;
+	color: white;
+}
+
+.nav-wrap {
+	float: left;
+}
 
 
-.nav-wrap>div{float: left; padding: 14px 18px;}
-.nav-wrap >div:hover{background-color:gray ;cursor: pointer;}
-.sch-wrap {background-color :orange; float: right;}
-.sch-wrap>span{padding: 14px 16px;}
+.nav-wrap>div {
+	float: left;
+	padding: 14px 18px;
+}
+
+.nav-wrap>div:hover {
+	background-color: gray;
+	cursor: pointer;
+}
+
+.sch-wrap {
+	float: right;
+	color: white;
+}
+
+.sch-wrap:hover {
+	cursor: pointer;
+	background-color: red;
+}
+
+.sch-wrap>span {
+	padding: 16px 18px;
+}
+
+
+/* .main-wrap */
+.main-wrap {
+	text-align: center;
+}
+
+.main-img {
+	max-width: 1400px;
+	width: 100%;
+}
+
+.band-wrap {
+	border: 10px solid red;
+	width: 100%;
+	max-width: 790px;
+	margin: 0 auto;
+	padding: 100px 12px;
+}
