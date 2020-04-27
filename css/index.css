@@ -28,7 +28,7 @@ img {
 	vertical-align: bottom;
 }
 
-body {
+html,body {
 	height: 10000px;
 }
 
