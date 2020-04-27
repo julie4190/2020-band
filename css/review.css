@@ -1,14 +1,73 @@
 /*********** normalize ***********/
-html,body,h1,h2,h3,h4,h5,h6,p {margin: 0;padding: 0; box-sizing: border-box;}
+html,
+body{	margin: 0;
+	padding: 0;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{box-sizing :border-box;}
 
+
+
+img {
+	vertical-align: bottom
+}
+body {
+	height: 10000px;
+}
 
 /*********** 공통사항 ***********/
+.clear:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
 
+.img {
+	width: 100%;
+}
 
-
+.title {text-align: center;font-family: Nunito , sans-serif;font-weight: 400;letter-spacing: 8px;}
 
 
 /*********** .header ***********/
+.header {
+	background-color: black;
+	color: white;
+}
+
+.navi-wrap {
+	float: left;
+
+}
+
+.navi {
+	float: left;
+	padding: 16px;
+}
+
+.navi
+
+:hover {
+	background-color: #eee;
+	color: black;
+}
+
+.search-wrap {
+	float: right;
+
+}
+
+.search-wrap>span {
+	padding: 18px;
+}
+.search-wrap>span :hover{background-color: #f20;}
 
 
-
+/*********** .main-wrap ***********/
+.main-wrap {
+	text-align: center;
+}

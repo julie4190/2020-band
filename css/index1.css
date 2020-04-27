@@ -1,14 +1,10 @@
+html, body
+{margin: 0;padding: 0;}
+
 .clearfix{clear: both;}
-.header{background-color: pink;color:olive;}
-.nav-wrap{float: left;}
 
 
 
 
-.nav-wrap>div{float: right;padding: 14px 18px;}
-.nav-wrap>div:hover{background-color: orange;cursor: pointer;}
-.sch-wrap{float: left;}
-.sch-wrap:hover{cursor: pointer;background-color: brown;}
-.sch-wrap>span{padding: 20px 22px;}
 
 
