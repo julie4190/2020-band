@@ -1,36 +1,14 @@
 /********** 글꼴 불러오기 **********/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 
-/**********normalize**********/
-html,
-body {
-	margin: 0;
-	padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-div,
-p,
-ul,
-li,
-dl,
-dd,
-dt {
-	box-sizing: border-box;
-}
 
 img {
 	vertical-align: bottom;
 }
 
-html,body {
-	height: 10000px;
-}
+html,body 
+
+
 
 /* 공통사항 */
 .img {
@@ -224,3 +202,25 @@ html,body {
 	color: #111;
 	cursor: pointer;
 }
+
+/* contact */
+.infos{float: left;width: 50%;}
+.forms{float: left;width: 50%;}
+.infos>.info{padding: 6px 0; font-size: 18px;}
+.infos>.info>span{margin-right: 20px;}
+
+.forms input{padding: 10px;margin-bottom: 4px ; width: 100%;}
+.forms>div:nth-child(1)>input{width: 49%; }
+.forms>div:nth-child(1)>input:first-child{float: left;}
+.forms>div:nth-child(1)>input:last-child{float: right;}
+
+/* .forms>div:nth-child(2)>input{width:100%} */
+
+.forms>div:nth-child(3){text-align: right;}
+.forms button{background-color: black;color: white;padding: 8px 16px;border: none;margin: 12px 0;}
+.forms button{background-color: #ddd;color:#000 ;}
+
+.footer{text-align: center;padding: 80px 0;color: #999;}
+.footer>div{padding: 6px 0;}
+.footer.fab:hover{opacity: 0.7;}
+.footer a{color: #999;}
