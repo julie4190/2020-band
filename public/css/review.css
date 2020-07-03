@@ -1,73 +1,41 @@
-/*********** normalize ***********/
-html,
-body{	margin: 0;
-	padding: 0;}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p{box-sizing :border-box;}
+
+/********** 공통사항 **********/
+.clearfix {clear: both;}
+.title {text-align: center; 
+	font-family: 'Nunito', sans-serif; font-weight: 400; letter-spacing: 8px;}
+.slogan {color: #999; text-align: center; font-style: italic; padding: 24px 0;}
+.desc {color: #222; text-align: justify;}
+.wrapper {width: 100%; max-width: 790px; margin: 0 auto; padding: 100px 12px;}
 
 
 
-img {
-	vertical-align: bottom
-}
-body {
-	height: 10000px;
-}
-
-/*********** 공통사항 ***********/
-.clear:after {
-	content: " ";
-	display: block;
-	clear: both;
-}
-
-.img {
-	width: 100%;
-}
-.pointer{cursor: pointer;}
-.title {text-align: center;font-family: Nunito , sans-serif;font-weight: 400;letter-spacing: 8px;}
 
 
-/*********** .header ***********/
-.header {
-	background-color: black;
-	color: white;
-}
+/********** .tour-wrap **********/
+.tour-wrap {background-color: black;}
+.tour-wrap .title {color: #fff;}
+.tour-wrap .lists {background-color: #f8f8f8; border: 1px solid #999;}
+/*
+.tour-wrap .list {padding: 12px; border-bottom: 1px solid #999;}
+.tour-wrap .list:last-child {border-bottom: none;}
+*/
+.tour-wrap .list {padding: 12px;}
+.tour-wrap .list:not(:last-child) {border-bottom: 1px solid #999;}
+.badge-soldout {background-color: #f20; color: #fff; padding: 2px 8px; 
+	font-size: 14px; margin-left: 30px;}
+.badge-counter {float: right; background-color: #111; color: #fff; 
+	padding: 2px 8px; border-radius: 50%;}
 
-.navi-wrap {
-	float: left;
-
-}
-
-.navi {
-	float: left;
-	padding: 16px;
-}
-
-.navi
-
-:hover {
-	background-color: #eee;
-	color: black;
-}
-
-.search-wrap {
-	float: right;
-
-}
-
-.search-wrap>span {
-	padding: 18px;
-}
-.search-wrap>span :hover{background-color: #f20;}
-
-
-/*********** .main-wrap ***********/
-.main-wrap {
-	text-align: center;
-}
+.cities {margin-top: 30px;}
+.city {float: left; width: 32%;}
+.city:nth-child(2) {margin: 0 2%;}	
+.city > .conts {background-color: #fff; padding: 16px;}
+.city > .photo > img:hover {opacity: 0.6;}
+.city >.photo {width: 50%;height: 60%;}
+.city > .conts > h3 {padding: 6px 0;}
+.city > .conts > p {padding: 6px 0; color: #999;}
+.city > .conts > .summary {padding: 6px 0;}
+.city > .conts > .bt-buy {padding: 12px; background-color: #111; color: #fff;
+	display: inline-block; margin-top: 12px;}
+.city > .conts > .bt-buy:hover {background-color: #ccc; color: #111; 
+	cursor: pointer;}
