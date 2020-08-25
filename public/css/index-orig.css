@@ -1,22 +1,23 @@
 /********** 글꼴불러오기 **********/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@300;400;700&display=swap');
 
 /********** 공통사항 **********/
 .clearfix {clear: both;}
 .title {text-align: center; 
 	font-family: 'Nunito', sans-serif; font-weight: 400; letter-spacing: 8px;}
 .slogan {color: #999; text-align: center; font-style: italic; padding: 24px 0;}
-.desc {color: #222; text-align: justify;}
+.desc {color: #222; text-align: justify;font-family: 'Oswald', sans-serif;}
 .wrapper {width: 100%; max-width: 790px; margin: 0 auto; padding: 100px 12px;}
 
 /********** .header **********/
-.header {background-color: black; color: white; width: 100%; position: fixed; z-index: 99;}
+.header { color: white; width: 100%; position: fixed; z-index: 99;}
 .nav-wrap {float: left;}
 .nav-wrap > div {float: left; padding: 14px 18px;}
-.nav-wrap > div:hover {cursor: pointer; background-color: #ccc; color: #111;}
+.nav-wrap > div:hover {cursor: pointer; color: #111;}
 .sch-wrap {float: right;}
 .sch-wrap .fa-bars {display: none;}
-.sch-wrap:hover {cursor: pointer; background-color: #f20;}
+.sch-wrap:hover {cursor: pointer; color: #000;}
 .sch-wrap > div {padding: 16px 18px;}
 
 /********** .main-wrap **********/
