@@ -1,29 +1,30 @@
 /********** 글꼴불러오기 **********/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
 /********** 공통사항 **********/
 .clearfix {clear: both;}
 .title {text-align: center; 
 	font-family: 'Nunito', sans-serif; font-weight: 400; letter-spacing: 8px;}
 .slogan {color: #999; text-align: center; font-style: italic; padding: 24px 0;}
-.desc {color: #222; text-align: justify;}
+.desc {color: #222; text-align: justify;font-family: 'Oswald', sans-serif;}
 .wrapper {width: 100%; max-width: 790px; margin: 0 auto; padding: 100px 12px;}
 
 /********** .header **********/
-.header {background-color: black; color: white; width: 100%; position: fixed; z-index: 99;}
-.nav-wrap {float: left;}
-.nav-wrap > div {float: left; padding: 14px 18px;}
-.nav-wrap > div:hover {cursor: pointer; background-color: #ccc; color: #111;}
+.header {  color: #ccad56; width: 100%;  z-index: 99;background-color: white;position: fixed;}
+.nav-wrap {float: left;font-family: 'Oswald', sans-serif;}
+.nav-wrap > div {float: left; padding: 14px 30px;}
+.nav-wrap > div:hover {cursor: pointer; color: #111;}
 .sch-wrap {float: right;}
 .sch-wrap .fa-bars {display: none;}
-.sch-wrap:hover {cursor: pointer; background-color: #f20;}
+.sch-wrap:hover {cursor: pointer; color: #000;}
 .sch-wrap > div {padding: 16px 18px;}
 
 /********** .main-wrap **********/
 .main-wrap {text-align: center; position: relative;}
 /* .main-img {width: 1200px;} */
 /* .main-img {max-width: 1400px; width: 100%;} */
-.main-img {width: 100%;}
+.main-img {width: 100%;height: 100vh;}
 .main-slogan {position: absolute; bottom: 40px; width: 100%; color:black;}
 .main-slogan > h2 {font-size: 32px; font-weight: normal; padding: 16px;}
 .main-slogan > h3 {font-size: 18px;}
@@ -33,7 +34,7 @@
 .member > .name {text-align: center; padding: 16px;}
 /* .member > .photo > img {} */
 .member img {border-radius: 6px;}
-
+.band-wrap >p{font-family: 'Oswald', sans-serif;padding: 10px 0;}
 /********** .tour-wrap **********/
 .tour-wrap {background-color: black;}
 .tour-wrap .title {color: #fff;}
