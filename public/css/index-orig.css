@@ -1,7 +1,12 @@
 /********** 글꼴불러오기 **********/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@300;400;700&display=swap');
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+
+
 /********** 공통사항 **********/
 .clearfix {clear: both;}
 .title {text-align: center; 
@@ -11,6 +16,7 @@
 .wrapper {width: 100%; max-width: 790px; margin: 0 auto; padding: 100px 12px;}
 
 /********** .header **********/
+
 .header {  color: #ccad56; width: 100%;  z-index: 99;background-color: white;position: fixed;}
 .nav-wrap {float: left;font-family: 'Oswald', sans-serif;}
 .nav-wrap > div {float: left; padding: 14px 30px;}
